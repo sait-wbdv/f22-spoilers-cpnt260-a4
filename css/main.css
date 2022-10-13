@@ -67,3 +67,9 @@ header h1 {
   color: rebeccapurple;
 }
 
+/* Adjust layout for wide screens */
+@media screen and (min-width: 1300px) {
+  .wrapper {
+    margin-right: 20vw;
+  }
+}
